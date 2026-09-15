@@ -587,6 +587,61 @@ button {
   font-weight: 500;
 }
 
+/*MODAL DESIGN*/
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.confirm-modal {
+  width: 90%;
+  max-width: 400px;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.confirm-modal h2 {
+  margin-top: 0;
+}
+
+.confirm-modal p {
+  margin: 1rem 0 1.5rem;
+  color: #666;
+}
+
+.confirm-modal-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cancel-button,
+.confirm-delete-button {
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.cancel-button {
+  background: #e5e7eb;
+  color: #333;
+}
+
+.confirm-delete-button {
+  background: #dc2626;
+  color: white;
+}
+
 /* =========================
    RESPONSIVE DESIGN
 ========================= */
