@@ -40,7 +40,7 @@ function Auth() {
       }
 
       setMessage(
-        "Account created! Please check your email to confirm your account."
+        "Account created successfully!"
       );
     }
   };
